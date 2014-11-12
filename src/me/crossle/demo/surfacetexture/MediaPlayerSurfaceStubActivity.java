@@ -24,7 +24,7 @@ public class MediaPlayerSurfaceStubActivity extends Activity {
 		mMediaPlayer = new MediaPlayer();
 
 		try {
-			AssetFileDescriptor afd = mResources.openRawResourceFd(R.raw.testvideo);
+			AssetFileDescriptor afd = mResources.openRawResourceFd(R.raw.aaa);
 			mMediaPlayer.setDataSource(
 			        afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
 			afd.close();
